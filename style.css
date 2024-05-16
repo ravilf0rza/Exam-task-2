@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+text-decoration: none;
+list-style: none;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: gray;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+.section1 {
+    background-color:whitesmoke;
+    text-align: center;
+    line-height: 20px;
+    padding: 50px;
+    
+}
+.button1 {
+    background-color: skyblue;
+    color: white;
+    border-radius: 17%;
+    width: 150px;
+    height: 50px;
+}
+.section2 {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: azure;
+}
+.section3 {
+    padding: 100px ;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightslategray;
+}
+.section4 {
+display: flex;
+justify-content: center;
+padding: 100px;
+gap: 50px;
+}
+.juve1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.atalanta2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.roma3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.napoli4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    height: 30px;
+    padding: 10px;
+}
